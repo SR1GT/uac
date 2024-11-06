@@ -1,0 +1,23 @@
+{
+  "name": "uac",
+  "version": "1.0.0",
+  "description": "Unified Authentication Center",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "log": "nodemon ./logger/reader.js"
+  },
+  "keywords": [
+    "UAC",
+    "Authentication"
+  ],
+  "author": "SR1GT",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.2"
+  }
+}
